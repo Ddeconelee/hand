@@ -1,18 +1,5 @@
-<!--
 
-
-MODEL: Univewrsal Robots UR5 + Robotiq S Model 3 Finger Gripper
-AUTHOR: Andrea Franceschetti @IASLAB Research Group
-UNIVERSITY: University of Padua
-DEPARTMENT: Departement of Information Engineering DEI
-Control Engineering / Automation Engineering
-
--->
-
-
-<!--Link  MuJoCo modeling: http://www.mujoco.org/book/modeling.html-->
-
-<mujoco model="ur5gripper">
+<mujoco model="ur5_three_fingers_hand">
     <compiler angle="radian"
               inertiafromgeom="true"
               texturedir="textures/"
